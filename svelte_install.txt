@@ -1,0 +1,23 @@
++++ SVELTE +++
+
+INSTALL:
+
+1. Node and npm binaries:
+
+apt install curl
+curl -sL https://deb.nodesource.com/setup_14.x | bash
+apt-get install -y nodejs
+
+2. Semver bug fix:
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+export NVM_DIR="$HOME/.nvm" && \. "$NVM_DIR/nvm.sh" && \. "$NVM_DIR/bash_completion"
+nvm install v14.15.5
+
+3. Spinner (in frontend folder):
+
+npm i --save-dev svelte-loading-spinners
+
+BUILD APP:
+
+npm run build

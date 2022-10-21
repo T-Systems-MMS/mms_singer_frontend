@@ -1,0 +1,18 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "svelte": "^3.49.0",
+    "svelte-loading-spinners": "^0.1.7",
+    "svelte-range-slider-pips": "^2.0.3",
+    "vite": "^2.9.9"
+  }
+}
